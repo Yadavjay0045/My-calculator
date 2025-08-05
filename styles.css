@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    backdrop-filter: blur(20px);
+    font-weight: bold;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+   background-color: rgb(53, 57, 57);
+    
+   background-image: url(Spiderman\ in\ the\ Rain\ Wallpaper\ HD\ 4K\ Background\ POSTER\ free\ download\ UltraHD\ for\ PC\ Deskto.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+ backdrop-filter: blur(8px);
+height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+}
+#hide{
+    visibility: hidden;
+}
+.box
+{
+    background-color: rgba(0, 255, 255, 0);
+    height: 370px;
+    width: 210px;
+    display:;
+  border-radius: 8px;
+  backdrop-filter: blur(00px);
+  border: 1.5px solid rgb(205, 197, 197);
+    justify-items: center;
+    box-shadow: rgb(22, 16, 14) 2px 5px 14px;
+
+    
+}
+.cont{
+    background-color: aquamarine;
+    margin-top: -10px;
+        background-color: rgba(240, 248, 255, 0);
+   
+}
+input{
+    
+  margin-top: 20px ;
+  height: 40px;
+  box-shadow: rgb(48, 28, 28) 1px 5px 15px;
+  text-align: right;
+  background-color: rgba(86, 103, 119, 0);
+}
+button{
+    width: 40px;
+    margin: 4px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(162, 147, 147);
+    background-color: rgba(240, 248, 255, 0);
+    box-shadow: rgb(42, 40, 40) 2px 1px 2px;
+}
+#result{
+    margin-left: 30px;
+    width: 70px;
+}
+#c
+{
+     width: 66px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+   body{
+    background-position-x: 30%;
+   } 
+}
