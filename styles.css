@@ -4,9 +4,9 @@
     box-sizing: border-box;
     backdrop-filter: blur(20px);
     font-weight: bold;
-
-       color: rgb(207, 215, 222);
+    color: rgb(207, 215, 222);
     font-size: 25px;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
@@ -81,3 +81,45 @@ button{
      
 }
 
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    *{
+           color: rgb(207, 215, 222);
+    font-size: 30px;
+    }
+   body{
+    background-position-x: 30%;
+   } 
+   .box{
+    width: 300px;
+    height: 430px;
+   }
+   button{
+    width: 70px;
+    height: 50px;
+   }
+   input{
+    margin-top: 10px;
+    width:250px;
+
+
+   }
+   #result{
+    margin-left: 30px;
+    width: 150px;
+}
+#c
+{
+     width:82px;
+     margin-left: -5px;
+
+     
+}
+
+
+}
